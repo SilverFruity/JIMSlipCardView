@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wpf-5n-TrQ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="oGw-Zx-jxn">
+            <objects>
+                <navigationController id="wpf-5n-TrQ" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="eT6-0A-D8Z">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Zrs-p4-IJJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QYU-aR-TGH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-540" y="27"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ofa-md-6de" customClass="JIMSlipCardView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p9s-d3-TYe">
+                                <rect key="frame" x="97.5" y="567" width="60" height="60"/>
+                                <state key="normal" image="dislike"/>
+                                <connections>
+                                    <action selector="dislike:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WaC-Wc-f5B"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ahs-yH-nUI">
+                                <rect key="frame" x="217.5" y="567" width="60" height="60"/>
+                                <state key="normal" image="like"/>
+                                <connections>
+                                    <action selector="like:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DTa-F3-siW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ofa-md-6de" secondAttribute="trailing" id="5Wk-Od-i2R"/>
+                            <constraint firstItem="ahs-yH-nUI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="30" id="HvZ-S1-J5a"/>
+                            <constraint firstAttribute="bottom" secondItem="ofa-md-6de" secondAttribute="bottom" id="dY7-1D-fwI"/>
+                            <constraint firstItem="ofa-md-6de" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="eeF-j8-TTa"/>
+                            <constraint firstItem="ofa-md-6de" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="gsR-Rz-VGZ"/>
+                            <constraint firstAttribute="bottom" secondItem="p9s-d3-TYe" secondAttribute="bottom" constant="40" id="kay-nV-igh"/>
+                            <constraint firstAttribute="centerX" secondItem="p9s-d3-TYe" secondAttribute="trailing" constant="30" id="nE9-HG-nGp"/>
+                            <constraint firstAttribute="bottom" secondItem="ahs-yH-nUI" secondAttribute="bottom" constant="40" id="oWE-sN-51t"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="yXK-dc-JgG"/>
+                    <connections>
+                        <outlet property="slipView" destination="ofa-md-6de" id="YgJ-VQ-Gf9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="153" y="27"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dislike" width="60" height="60"/>
+        <image name="like" width="60" height="60"/>
+    </resources>
+</document>

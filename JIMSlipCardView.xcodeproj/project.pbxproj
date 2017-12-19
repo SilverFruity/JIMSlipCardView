@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B09AB161FE97AE6003C1CF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B09AB151FE97AE6003C1CF7 /* AppDelegate.m */; };
+		1B09AB191FE97AE6003C1CF7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B09AB181FE97AE6003C1CF7 /* ViewController.m */; };
+		1B09AB1C1FE97AE6003C1CF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B09AB1A1FE97AE6003C1CF7 /* Main.storyboard */; };
+		1B09AB1E1FE97AE6003C1CF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B09AB1D1FE97AE6003C1CF7 /* Assets.xcassets */; };
+		1B09AB211FE97AE6003C1CF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B09AB1F1FE97AE6003C1CF7 /* LaunchScreen.storyboard */; };
+		1B09AB241FE97AE6003C1CF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B09AB231FE97AE6003C1CF7 /* main.m */; };
+		1B09AB2E1FE97AE7003C1CF7 /* JIMSlipCardViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B09AB2D1FE97AE7003C1CF7 /* JIMSlipCardViewTests.m */; };
+		1B09AB391FE97AE7003C1CF7 /* JIMSlipCardViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B09AB381FE97AE7003C1CF7 /* JIMSlipCardViewUITests.m */; };
+		1B09AB491FE97B72003C1CF7 /* JIMSlipCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B09AB481FE97B72003C1CF7 /* JIMSlipCardView.m */; };
+		1B09AB4D1FE97B91003C1CF7 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B09AB4B1FE97B91003C1CF7 /* CardView.xib */; };
+		1B09AB4E1FE97B91003C1CF7 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B09AB4C1FE97B91003C1CF7 /* CardView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B09AB2A1FE97AE7003C1CF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B09AB091FE97AE6003C1CF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B09AB101FE97AE6003C1CF7;
+			remoteInfo = JIMSlipCardView;
+		};
+		1B09AB351FE97AE7003C1CF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B09AB091FE97AE6003C1CF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B09AB101FE97AE6003C1CF7;
+			remoteInfo = JIMSlipCardView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B09AB111FE97AE6003C1CF7 /* JIMSlipCardView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JIMSlipCardView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B09AB141FE97AE6003C1CF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1B09AB151FE97AE6003C1CF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1B09AB171FE97AE6003C1CF7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1B09AB181FE97AE6003C1CF7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1B09AB1B1FE97AE6003C1CF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B09AB1D1FE97AE6003C1CF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B09AB201FE97AE6003C1CF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B09AB221FE97AE6003C1CF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B09AB231FE97AE6003C1CF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B09AB291FE97AE7003C1CF7 /* JIMSlipCardViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JIMSlipCardViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B09AB2D1FE97AE7003C1CF7 /* JIMSlipCardViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JIMSlipCardViewTests.m; sourceTree = "<group>"; };
+		1B09AB2F1FE97AE7003C1CF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B09AB341FE97AE7003C1CF7 /* JIMSlipCardViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JIMSlipCardViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B09AB381FE97AE7003C1CF7 /* JIMSlipCardViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JIMSlipCardViewUITests.m; sourceTree = "<group>"; };
+		1B09AB3A1FE97AE7003C1CF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B09AB471FE97B72003C1CF7 /* JIMSlipCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JIMSlipCardView.h; sourceTree = "<group>"; };
+		1B09AB481FE97B72003C1CF7 /* JIMSlipCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JIMSlipCardView.m; sourceTree = "<group>"; };
+		1B09AB4A1FE97B91003C1CF7 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		1B09AB4B1FE97B91003C1CF7 /* CardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+		1B09AB4C1FE97B91003C1CF7 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B09AB0E1FE97AE6003C1CF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B09AB261FE97AE7003C1CF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B09AB311FE97AE7003C1CF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B09AB081FE97AE6003C1CF7 = {
+			isa = PBXGroup;
+			children = (
+				1B09AB131FE97AE6003C1CF7 /* JIMSlipCardView */,
+				1B09AB2C1FE97AE7003C1CF7 /* JIMSlipCardViewTests */,
+				1B09AB371FE97AE7003C1CF7 /* JIMSlipCardViewUITests */,
+				1B09AB121FE97AE6003C1CF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B09AB121FE97AE6003C1CF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B09AB111FE97AE6003C1CF7 /* JIMSlipCardView.app */,
+				1B09AB291FE97AE7003C1CF7 /* JIMSlipCardViewTests.xctest */,
+				1B09AB341FE97AE7003C1CF7 /* JIMSlipCardViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B09AB131FE97AE6003C1CF7 /* JIMSlipCardView */ = {
+			isa = PBXGroup;
+			children = (
+				1B09AB141FE97AE6003C1CF7 /* AppDelegate.h */,
+				1B09AB151FE97AE6003C1CF7 /* AppDelegate.m */,
+				1B09AB171FE97AE6003C1CF7 /* ViewController.h */,
+				1B09AB181FE97AE6003C1CF7 /* ViewController.m */,
+				1B09AB4A1FE97B91003C1CF7 /* CardView.h */,
+				1B09AB4C1FE97B91003C1CF7 /* CardView.m */,
+				1B09AB4B1FE97B91003C1CF7 /* CardView.xib */,
+				1B09AB461FE97B72003C1CF7 /* JIMSlipCardView */,
+				1B09AB1A1FE97AE6003C1CF7 /* Main.storyboard */,
+				1B09AB1D1FE97AE6003C1CF7 /* Assets.xcassets */,
+				1B09AB1F1FE97AE6003C1CF7 /* LaunchScreen.storyboard */,
+				1B09AB221FE97AE6003C1CF7 /* Info.plist */,
+				1B09AB231FE97AE6003C1CF7 /* main.m */,
+			);
+			path = JIMSlipCardView;
+			sourceTree = "<group>";
+		};
+		1B09AB2C1FE97AE7003C1CF7 /* JIMSlipCardViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B09AB2D1FE97AE7003C1CF7 /* JIMSlipCardViewTests.m */,
+				1B09AB2F1FE97AE7003C1CF7 /* Info.plist */,
+			);
+			path = JIMSlipCardViewTests;
+			sourceTree = "<group>";
+		};
+		1B09AB371FE97AE7003C1CF7 /* JIMSlipCardViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B09AB381FE97AE7003C1CF7 /* JIMSlipCardViewUITests.m */,
+				1B09AB3A1FE97AE7003C1CF7 /* Info.plist */,
+			);
+			path = JIMSlipCardViewUITests;
+			sourceTree = "<group>";
+		};
+		1B09AB461FE97B72003C1CF7 /* JIMSlipCardView */ = {
+			isa = PBXGroup;
+			children = (
+				1B09AB471FE97B72003C1CF7 /* JIMSlipCardView.h */,
+				1B09AB481FE97B72003C1CF7 /* JIMSlipCardView.m */,
+			);
+			path = JIMSlipCardView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B09AB101FE97AE6003C1CF7 /* JIMSlipCardView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B09AB3D1FE97AE7003C1CF7 /* Build configuration list for PBXNativeTarget "JIMSlipCardView" */;
+			buildPhases = (
+				1B09AB0D1FE97AE6003C1CF7 /* Sources */,
+				1B09AB0E1FE97AE6003C1CF7 /* Frameworks */,
+				1B09AB0F1FE97AE6003C1CF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JIMSlipCardView;
+			productName = JIMSlipCardView;
+			productReference = 1B09AB111FE97AE6003C1CF7 /* JIMSlipCardView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B09AB281FE97AE7003C1CF7 /* JIMSlipCardViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B09AB401FE97AE7003C1CF7 /* Build configuration list for PBXNativeTarget "JIMSlipCardViewTests" */;
+			buildPhases = (
+				1B09AB251FE97AE7003C1CF7 /* Sources */,
+				1B09AB261FE97AE7003C1CF7 /* Frameworks */,
+				1B09AB271FE97AE7003C1CF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B09AB2B1FE97AE7003C1CF7 /* PBXTargetDependency */,
+			);
+			name = JIMSlipCardViewTests;
+			productName = JIMSlipCardViewTests;
+			productReference = 1B09AB291FE97AE7003C1CF7 /* JIMSlipCardViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B09AB331FE97AE7003C1CF7 /* JIMSlipCardViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B09AB431FE97AE7003C1CF7 /* Build configuration list for PBXNativeTarget "JIMSlipCardViewUITests" */;
+			buildPhases = (
+				1B09AB301FE97AE7003C1CF7 /* Sources */,
+				1B09AB311FE97AE7003C1CF7 /* Frameworks */,
+				1B09AB321FE97AE7003C1CF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B09AB361FE97AE7003C1CF7 /* PBXTargetDependency */,
+			);
+			name = JIMSlipCardViewUITests;
+			productName = JIMSlipCardViewUITests;
+			productReference = 1B09AB341FE97AE7003C1CF7 /* JIMSlipCardViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B09AB091FE97AE6003C1CF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = JIM;
+				TargetAttributes = {
+					1B09AB101FE97AE6003C1CF7 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					1B09AB281FE97AE7003C1CF7 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1B09AB101FE97AE6003C1CF7;
+					};
+					1B09AB331FE97AE7003C1CF7 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1B09AB101FE97AE6003C1CF7;
+					};
+				};
+			};
+			buildConfigurationList = 1B09AB0C1FE97AE6003C1CF7 /* Build configuration list for PBXProject "JIMSlipCardView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B09AB081FE97AE6003C1CF7;
+			productRefGroup = 1B09AB121FE97AE6003C1CF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B09AB101FE97AE6003C1CF7 /* JIMSlipCardView */,
+				1B09AB281FE97AE7003C1CF7 /* JIMSlipCardViewTests */,
+				1B09AB331FE97AE7003C1CF7 /* JIMSlipCardViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B09AB0F1FE97AE6003C1CF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B09AB211FE97AE6003C1CF7 /* LaunchScreen.storyboard in Resources */,
+				1B09AB1E1FE97AE6003C1CF7 /* Assets.xcassets in Resources */,
+				1B09AB4D1FE97B91003C1CF7 /* CardView.xib in Resources */,
+				1B09AB1C1FE97AE6003C1CF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B09AB271FE97AE7003C1CF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B09AB321FE97AE7003C1CF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B09AB0D1FE97AE6003C1CF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B09AB191FE97AE6003C1CF7 /* ViewController.m in Sources */,
+				1B09AB491FE97B72003C1CF7 /* JIMSlipCardView.m in Sources */,
+				1B09AB4E1FE97B91003C1CF7 /* CardView.m in Sources */,
+				1B09AB241FE97AE6003C1CF7 /* main.m in Sources */,
+				1B09AB161FE97AE6003C1CF7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B09AB251FE97AE7003C1CF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B09AB2E1FE97AE7003C1CF7 /* JIMSlipCardViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B09AB301FE97AE7003C1CF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B09AB391FE97AE7003C1CF7 /* JIMSlipCardViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B09AB2B1FE97AE7003C1CF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B09AB101FE97AE6003C1CF7 /* JIMSlipCardView */;
+			targetProxy = 1B09AB2A1FE97AE7003C1CF7 /* PBXContainerItemProxy */;
+		};
+		1B09AB361FE97AE7003C1CF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B09AB101FE97AE6003C1CF7 /* JIMSlipCardView */;
+			targetProxy = 1B09AB351FE97AE7003C1CF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B09AB1A1FE97AE6003C1CF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B09AB1B1FE97AE6003C1CF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B09AB1F1FE97AE6003C1CF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B09AB201FE97AE6003C1CF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B09AB3B1FE97AE7003C1CF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1B09AB3C1FE97AE7003C1CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B09AB3E1FE97AE7003C1CF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GRD9Q48LG6;
+				INFOPLIST_FILE = JIMSlipCardView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JIM.JIMSlipCardView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B09AB3F1FE97AE7003C1CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GRD9Q48LG6;
+				INFOPLIST_FILE = JIMSlipCardView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JIM.JIMSlipCardView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1B09AB411FE97AE7003C1CF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GRD9Q48LG6;
+				INFOPLIST_FILE = JIMSlipCardViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JIM.JIMSlipCardViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JIMSlipCardView.app/JIMSlipCardView";
+			};
+			name = Debug;
+		};
+		1B09AB421FE97AE7003C1CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GRD9Q48LG6;
+				INFOPLIST_FILE = JIMSlipCardViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JIM.JIMSlipCardViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JIMSlipCardView.app/JIMSlipCardView";
+			};
+			name = Release;
+		};
+		1B09AB441FE97AE7003C1CF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GRD9Q48LG6;
+				INFOPLIST_FILE = JIMSlipCardViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JIM.JIMSlipCardViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JIMSlipCardView;
+			};
+			name = Debug;
+		};
+		1B09AB451FE97AE7003C1CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GRD9Q48LG6;
+				INFOPLIST_FILE = JIMSlipCardViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JIM.JIMSlipCardViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JIMSlipCardView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B09AB0C1FE97AE6003C1CF7 /* Build configuration list for PBXProject "JIMSlipCardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B09AB3B1FE97AE7003C1CF7 /* Debug */,
+				1B09AB3C1FE97AE7003C1CF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B09AB3D1FE97AE7003C1CF7 /* Build configuration list for PBXNativeTarget "JIMSlipCardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B09AB3E1FE97AE7003C1CF7 /* Debug */,
+				1B09AB3F1FE97AE7003C1CF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B09AB401FE97AE7003C1CF7 /* Build configuration list for PBXNativeTarget "JIMSlipCardViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B09AB411FE97AE7003C1CF7 /* Debug */,
+				1B09AB421FE97AE7003C1CF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B09AB431FE97AE7003C1CF7 /* Build configuration list for PBXNativeTarget "JIMSlipCardViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B09AB441FE97AE7003C1CF7 /* Debug */,
+				1B09AB451FE97AE7003C1CF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B09AB091FE97AE6003C1CF7 /* Project object */;
+}
